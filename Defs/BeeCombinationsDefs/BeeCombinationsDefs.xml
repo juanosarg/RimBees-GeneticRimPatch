@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+
+	<!-- Genetic Tier Combinations -->	
+	<!--<RimBees.BeeCombinationDef>
+		<defName>RB_CombinationTier1_1</defName>
+		<bee1>Temperate</bee1>
+		<bee2>Hybrid</bee2>
+		<result>
+			<li>Amalgam</li>
+		</result>				
+	</RimBees.BeeCombinationDef>
+	
+	<RimBees.BeeCombinationDef>
+		<defName>RB_CombinationTier1_2</defName>
+		<bee1>Mild</bee1>
+		<bee2>Hybrid</bee2>
+		<result>
+			<li>Amalgam</li>
+		</result>				
+	</RimBees.BeeCombinationDef>
+	
+	<RimBees.BeeCombinationDef>
+		<defName>RB_CombinationTier1_3</defName>
+		<bee1>Amalgam</bee1>
+		<bee2>Hybrid</bee2>
+		<result>
+			<li>Adaptive</li>
+			<li>Alloy</li>
+			<li>Nutritious</li>
+			<li>Neutro</li>
+			<li>Technological</li>
+		</result>				
+	</RimBees.BeeCombinationDef>
+-->
+	
+	
+</Defs>

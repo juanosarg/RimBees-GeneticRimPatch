@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<!--
+
+	<ThingDef ParentName="RB_HoneyBase">
+		<defName>RB_BlueHoney</defName>
+		<label>blue honey</label>
+		<description>This honey has been extracted from Amalgam honeycombs, and has a distinct blueish tone that makes it less appetizing. However, it is in fact more nutritious than normal honey. Honey can be consumed raw or cooked with other ingredients.</description>  
+		<graphicData>
+			<color>(123,226,226)</color>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.9</MarketValue>
+			<Nutrition>0.06</Nutrition>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>75</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+-->
+
+
+</Defs>

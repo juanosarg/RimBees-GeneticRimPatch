@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RimBees.BeeListDef>
+		<defName>RB_OrganicBeeList</defName>
+		<beeDroneDef>RB_Bee_Organic_Drone</beeDroneDef>
+		<beeDroneTag>RB_Organic_Drone_Tag</beeDroneTag>
+		<beeQueenDef>RB_Bee_Organic_Queen</beeQueenDef>
+		<beeQueenTag>RB_Organic_Queen_Tag</beeQueenTag>
+	</RimBees.BeeListDef>
+
+
+
+</Defs>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<ThingDef ParentName="RB_CombBase">
+		<defName>RB_Organic_Honeycomb</defName>
+		<label>organic honeycomb</label>
+		<description>This is a honeycomb produced by organic bees. Organic bees are genetically modified bees that extract cellulose fibers from nearby plants and convert it into organic pulp, which they store on their honeycombs. Honeycombs can be procesed in a Honey Extractor to get honey, beeswax and organic pulp.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Combs/RB_Organic_Honeycomb</texPath>
+		</graphicData>	
+		<butcherProducts>
+			<RB_BaseHoney>5</RB_BaseHoney>
+			<RB_Beeswax>5</RB_Beeswax>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
+		</butcherProducts>
+	</ThingDef>
+
+
+
+
+
+
+</Defs>

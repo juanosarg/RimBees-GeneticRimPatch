@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<RecipeDef>
+		<defName>RB_CentrifugeOrganicComb</defName>
+		<label>extract from organic comb</label>
+		<description>Centrifuges an organic comb to extract honey, wax and organic pulp</description>
+		<jobString>Extracting honey, wax and organic pulp</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>RB_Honey_Centrifuge</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RB_Organic_Honeycomb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>RB_Organic_Honeycomb</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+
+
+</Defs>
