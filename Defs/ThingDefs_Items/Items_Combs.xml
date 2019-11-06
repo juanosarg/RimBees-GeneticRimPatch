@@ -17,6 +17,21 @@
 			<GR_OrganicPulp>1</GR_OrganicPulp>
 		</butcherProducts>
 	</ThingDef>
+	
+	<ThingDef ParentName="RB_CombBase">
+		<defName>RB_Hybernating_Honeycomb</defName>
+		<label>hybernating honeycomb</label>
+		<description>This is a honeycomb produced by hybernating bees. Hybernating bees have grizzly bear genes spliced in their genome. They are covered in a soft fur. Honeycombs can be procesed in a Honey Extractor to get honey, beeswax and bear genetic material.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Combs/RB_Hybernating_Honeycomb</texPath>
+		</graphicData>	
+		<butcherProducts>
+			<RB_BaseHoney>5</RB_BaseHoney>
+			<RB_Beeswax>5</RB_Beeswax>
+			<GR_OrganicPulp>1</GR_OrganicPulp>
+		</butcherProducts>
+	</ThingDef>
 
 
 
