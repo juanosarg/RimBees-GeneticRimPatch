@@ -2,7 +2,7 @@
 <Defs>
 
 
-	
+
 	<!--========== Genetic Tier: Basic (bought from merchants or crafted in the Genetic Table) ==========-->
 
 	<!--=============== Organic ====================-->
@@ -44,20 +44,20 @@
 			<texPath>Things/Item/Bees/RB_Bee_Organic_Queen</texPath>
 		</graphicData> 		
 	</ThingDef>
-	
+
 	<!--========== Genetic Tier: Hybrids (Organic + Other) ==========-->
 
-	<!--=============== Hybernating ====================-->
+	<!--=============== Cattle ====================-->
 
-	<ThingDef ParentName="RB_BeeBase" Name="RB_HybernatingBeeBase" Abstract="True" >
-		<description>Hybernating bees have grizzly bear genes spliced in their genome. They are covered in a soft fur.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+	<ThingDef ParentName="RB_BeeBase" Name="RB_CattleBeeBase" Abstract="True" >
+		<description>Cattle bees have muffalo genes spliced in their genome. They are covered in a thick white pelt, and produce milk, wool and muffalo genetic material.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>   
 		<comps>			
 			<li Class="RimBees.CompProperties_Bees">
-				<species>Hybernating</species>
-				<comb>RB_Hybernating_Honeycomb</comb>
+				<species>Cattle</species>
+				<comb>RB_Cattle_Honeycomb</comb>
 				<combtimedays>3</combtimedays>
 				<nocturnal>false</nocturnal>
 				<pluviophile>false</pluviophile>
@@ -68,21 +68,57 @@
 		</comps>
 	</ThingDef>
 
-	<ThingDef ParentName="RB_HybernatingBeeBase">
-		<defName>RB_Bee_Hybernating_Drone</defName>
-		<label>hybernating drone</label>
+	<ThingDef ParentName="RB_CattleBeeBase">
+		<defName>RB_Bee_Cattle_Drone</defName>
+		<label>cattle drone</label>
 		<graphicData>
-			<texPath>Things/Item/Bees/RB_Bee_Hybernating_Drone</texPath>
+			<texPath>Things/Item/Bees/RB_Bee_Cattle_Drone</texPath>
 		</graphicData> 		
 	</ThingDef>
-	<ThingDef ParentName="RB_HybernatingBeeBase">
-		<defName>RB_Bee_Hybernating_Queen</defName>
-		<label>hybernating queen</label>
+	<ThingDef ParentName="RB_CattleBeeBase">
+		<defName>RB_Bee_Cattle_Queen</defName>
+		<label>cattle queen</label>
 		<graphicData>
-			<texPath>Things/Item/Bees/RB_Bee_Hybernating_Queen</texPath>
+			<texPath>Things/Item/Bees/RB_Bee_Cattle_Queen</texPath>
 		</graphicData> 		
 	</ThingDef>
-	
+
+	<!--=============== Clucking ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_CluckingBeeBase" Abstract="True" >
+		<description>Clucking bees have chicken genes spliced in their genome. They are covered in feathers, and produce eggs and chicken genetic material.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Clucking</species>
+				<comb>RB_Clucking_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_CluckingBeeBase">
+		<defName>RB_Bee_Clucking_Drone</defName>
+		<label>clucking drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Clucking_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_CluckingBeeBase">
+		<defName>RB_Bee_Clucking_Queen</defName>
+		<label>clucking queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Clucking_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+
 	<!--=============== Exploding ====================-->
 
 	<ThingDef ParentName="RB_BeeBase" Name="RB_ExplodingBeeBase" Abstract="True" >
@@ -116,6 +152,184 @@
 		<label>exploding queen</label>
 		<graphicData>
 			<texPath>Things/Item/Bees/RB_Bee_Exploding_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+
+	<!--=============== Horned ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_HornedBeeBase" Abstract="True" >
+		<description>Horned bees have thrumbo genes spliced in their genome. They take a very long time to generate honeycombs, but they produce highly sought after thrumbo genetic material.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Horned</species>
+				<comb>RB_Horned_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_HornedBeeBase">
+		<defName>RB_Bee_Horned_Drone</defName>
+		<label>horned drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Horned_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_HornedBeeBase">
+		<defName>RB_Bee_Horned_Queen</defName>
+		<label>horned queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Horned_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+
+	<!--=============== Hound ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_HoundBeeBase" Abstract="True" >
+		<description>Hound bees have wolf genes spliced in their genome. They produce canine genetic material.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Hound</species>
+				<comb>RB_Hound_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_HoundBeeBase">
+		<defName>RB_Bee_Hound_Drone</defName>
+		<label>hound drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Hound_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_HoundBeeBase">
+		<defName>RB_Bee_Hound_Queen</defName>
+		<label>hound queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Hound_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>	
+	<!--=============== Hybernating ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_HybernatingBeeBase" Abstract="True" >
+		<description>Hybernating bees have grizzly bear genes spliced in their genome. They are covered in a soft fur and produce bear genetic materials.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Hybernating</species>
+				<comb>RB_Hybernating_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_HybernatingBeeBase">
+		<defName>RB_Bee_Hybernating_Drone</defName>
+		<label>hybernating drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Hybernating_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_HybernatingBeeBase">
+		<defName>RB_Bee_Hybernating_Queen</defName>
+		<label>hybernating queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Hybernating_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<!--=============== Mecha ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_MechaBeeBase" Abstract="True" >
+		<description>These are bee sized mechanoids, apparently under the colonists' control. Mecha bees produce mechanoid active components, which are used to create mechanoid hybrids, but they take a very long time to do so.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Mecha</species>
+				<comb>RB_Mecha_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_MechaBeeBase">
+		<defName>RB_Bee_Mecha_Drone</defName>
+		<label>mecha drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Mecha_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_MechaBeeBase">
+		<defName>RB_Bee_Mecha_Queen</defName>
+		<label>mecha queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Mecha_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+	
+		<!--=============== Megaspidery ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_MegaspideryBeeBase" Abstract="True" >
+		<description>Hybernating bees have alien insectoid genes spliced in their genome. They are covered in chitinous plates and produce insect jelly and insectoid genetic materials.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Megaspidery</species>
+				<comb>RB_Megaspidery_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_MegaspideryBeeBase">
+		<defName>RB_Bee_Megaspidery_Drone</defName>
+		<label>megaspidery drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Megaspidery_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_MegaspideryBeeBase">
+		<defName>RB_Bee_Megaspidery_Queen</defName>
+		<label>megaspidery queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Megaspidery_Queen</texPath>
 		</graphicData> 		
 	</ThingDef>
 	
