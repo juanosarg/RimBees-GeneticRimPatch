@@ -4,15 +4,15 @@
 
 
 	<!-- Genetic Tier Combinations -->	
-	<!--<RimBees.BeeCombinationDef>
-		<defName>RB_CombinationTier1_1</defName>
-		<bee1>Temperate</bee1>
-		<bee2>Hybrid</bee2>
+	<RimBees.BeeCombinationDef>
+		<defName>RB_CombinationTierGenetic_1</defName>
+		<bee1>Organic</bee1>
+		<bee2>Woodland</bee2>
 		<result>
-			<li>Amalgam</li>
+			<li>Hybernating</li>
 		</result>				
 	</RimBees.BeeCombinationDef>
-	
+<!--	
 	<RimBees.BeeCombinationDef>
 		<defName>RB_CombinationTier1_2</defName>
 		<bee1>Mild</bee1>

@@ -41,6 +41,45 @@
 			<Crafting>8</Crafting>
 		</skillRequirements>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>RB_CentrifugeHybernatingCombBulk</defName>
+		<label>bulk extract from hybernating comb</label>
+		<description>Centrifuges a hybernating comb to bulk extract genetic honey, genewax and bear genetic material</description>
+		<jobString>Extracting genetic honey, genewax and bear genetic material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>RB_Advanced_Honey_Centrifuge</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RB_Hybernating_Honeycomb</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>RB_Hybernating_Honeycomb</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<RB_GeneticHoney>50</RB_GeneticHoney>
+			<RB_Genewax>50</RB_Genewax>
+			<GR_BearGenetic>10</GR_BearGenetic>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	</RecipeDef>
 
 	
 </Defs>

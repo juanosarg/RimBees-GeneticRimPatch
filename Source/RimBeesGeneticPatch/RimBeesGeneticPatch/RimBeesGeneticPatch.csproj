@@ -47,6 +47,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HediffCompProperties_WhileHavingThoughts.cs" />
+    <Compile Include="HediffComp_WhileHavingThoughts.cs" />
     <Compile Include="Thought_Hediff.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

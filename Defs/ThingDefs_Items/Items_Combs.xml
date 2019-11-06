@@ -27,9 +27,9 @@
 			<texPath>Things/Item/Combs/RB_Hybernating_Honeycomb</texPath>
 		</graphicData>	
 		<butcherProducts>
-			<RB_BaseHoney>5</RB_BaseHoney>
-			<RB_Beeswax>5</RB_Beeswax>
-			<GR_OrganicPulp>1</GR_OrganicPulp>
+			<RB_GeneticHoney>5</RB_GeneticHoney>
+			<RB_Genewax>5</RB_Genewax>
+			<GR_BearGenetic>1</GR_BearGenetic>
 		</butcherProducts>
 	</ThingDef>
 

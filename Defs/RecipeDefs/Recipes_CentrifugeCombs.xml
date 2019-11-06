@@ -38,6 +38,43 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 	</RecipeDef>
+	
+	<RecipeDef>
+		<defName>RB_CentrifugeHybernatingComb</defName>
+		<label>extract from hybernating comb</label>
+		<description>Centrifuges a hybernating comb to extract genetic honey, genewax and bear genetic material</description>
+		<jobString>Extracting genetic honey, genewax and bear genetic material</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>RB_Honey_Centrifuge</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RB_Hybernating_Honeycomb</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>RB_Hybernating_Honeycomb</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<specialProducts>
+			<li>Butchery</li>
+		</specialProducts>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+	</RecipeDef>
 
 
 </Defs>
