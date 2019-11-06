@@ -297,7 +297,7 @@
 		</graphicData> 		
 	</ThingDef>
 	
-		<!--=============== Megaspidery ====================-->
+	<!--=============== Megaspidery ====================-->
 
 	<ThingDef ParentName="RB_BeeBase" Name="RB_MegaspideryBeeBase" Abstract="True" >
 		<description>Hybernating bees have alien insectoid genes spliced in their genome. They are covered in chitinous plates and produce insect jelly and insectoid genetic materials.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
@@ -330,6 +330,114 @@
 		<label>megaspidery queen</label>
 		<graphicData>
 			<texPath>Things/Item/Bees/RB_Bee_Megaspidery_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+	
+	<!--=============== Mousy ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_MousyBeeBase" Abstract="True" >
+		<description>Mousy bees have rodent genes spliced in their genome. They produce rodent genetic materials and many find their constant high-pitched squeaking sounds to be quite distracting.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Mousy</species>
+				<comb>RB_Mousy_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_MousyBeeBase">
+		<defName>RB_Bee_Mousy_Drone</defName>
+		<label>mousy drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Mousy_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_MousyBeeBase">
+		<defName>RB_Bee_Mousy_Queen</defName>
+		<label>mousy queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Mousy_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+	
+	<!--=============== Purring ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_PurringBeeBase" Abstract="True" >
+		<description>Purring bees have cat genes spliced in their genome. They produce feline genetic materials and a lot of videos on the internet.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Purring</species>
+				<comb>RB_Purring_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_PurringBeeBase">
+		<defName>RB_Bee_Purring_Drone</defName>
+		<label>purring drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Purring_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_PurringBeeBase">
+		<defName>RB_Bee_Purring_Queen</defName>
+		<label>purring queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Purring_Queen</texPath>
+		</graphicData> 		
+	</ThingDef>
+	
+	<!--=============== Scaly ====================-->
+
+	<ThingDef ParentName="RB_BeeBase" Name="RB_ScalyBeeBase" Abstract="True" >
+		<description>Scaly bees have reptilian genes spliced in their genome. They are covered in tough looking scales and produce reptilian genetic materials.\n\nBee Traits:\n\nProduction time: 72 hours\nNocturnal: No\nPluviophile: No\nUnusual plants needed: No\nMinimum Temperature: -10ºC\nMaximum temperature: 30ºC</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>   
+		<comps>			
+			<li Class="RimBees.CompProperties_Bees">
+				<species>Scaly</species>
+				<comb>RB_Scaly_Honeycomb</comb>
+				<combtimedays>3</combtimedays>
+				<nocturnal>false</nocturnal>
+				<pluviophile>false</pluviophile>
+				<weirdplantneeded>no</weirdplantneeded>
+				<tempMin>-10</tempMin>
+				<tempMax>30</tempMax>
+			</li>   
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="RB_ScalyBeeBase">
+		<defName>RB_Bee_Scaly_Drone</defName>
+		<label>scaly drone</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Scaly_Drone</texPath>
+		</graphicData> 		
+	</ThingDef>
+	<ThingDef ParentName="RB_ScalyBeeBase">
+		<defName>RB_Bee_Scaly_Queen</defName>
+		<label>scaly queen</label>
+		<graphicData>
+			<texPath>Things/Item/Bees/RB_Bee_Scaly_Queen</texPath>
 		</graphicData> 		
 	</ThingDef>
 	
