@@ -21,7 +21,7 @@
 				<filter>
 
 					<thingDefs>
-						<li>RB_GeneWax</li>
+						<li>RB_Genewax</li>
 
 					</thingDefs>
 				</filter>
@@ -41,7 +41,7 @@
 		<fixedIngredientFilter>
 
 			<thingDefs>
-				<li>RB_GeneWax</li>
+				<li>RB_Genewax</li>
 				<li>GR_OrganicPulp</li>
 			</thingDefs>
 		</fixedIngredientFilter>
