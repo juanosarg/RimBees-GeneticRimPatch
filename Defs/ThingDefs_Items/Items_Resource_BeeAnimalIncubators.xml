@@ -28,7 +28,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Boombee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Boombee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -40,7 +40,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Catbee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Catbee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -52,7 +52,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Chickenbee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Chickenbee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -64,7 +64,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Spiderbee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Spiderbee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -76,7 +76,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Mechabee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Mechabee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -90,7 +90,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Muffalobee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Muffalobee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -102,7 +102,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Lizardbee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Bearbee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -114,7 +114,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Mousebee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Bearbee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -126,7 +126,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Thrumbee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Bearbee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>
@@ -138,7 +138,7 @@
     <comps>
       <li Class="NewHatcher.CompProperties_Incubator">
         <hatcherDaystoHatch>1</hatcherDaystoHatch>
-        <hatcherPawn>GR_Wolfbee</hatcherPawn>
+        <hatcherPawn>GR_BeeHybrid_Bearbee</hatcherPawn>
       </li>
     </comps>
 </ThingDef>

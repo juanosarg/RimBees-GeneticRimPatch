@@ -9,6 +9,16 @@
 		<label>toxic sting</label>
 	</ToolCapacityDef>
 	
+	<ToolCapacityDef>
+		<defName>RB_ChemfuelSting</defName>
+		<label>chemfuel sting</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>RB_BlindingSting</defName>
+		<label>blinding sting</label>
+	</ToolCapacityDef>
+	
 	
 
 

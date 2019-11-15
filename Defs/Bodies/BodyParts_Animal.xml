@@ -55,6 +55,16 @@
 		</tags>
 	</BodyPartDef>
 	
+	<BodyPartDef>
+		<defName>RB_InsectSting</defName>
+		<label>stinger</label>
+		<hitPoints>3</hitPoints>
+		<skinCovered>false</skinCovered>
+		<solid>true</solid>
+		<bleedRate>0</bleedRate>
+
+	</BodyPartDef>
+	
 	
 
 </Defs>

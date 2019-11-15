@@ -47,6 +47,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DeathActionWorker_BeeExplosion.cs" />
     <Compile Include="HediffCompProperties_WhileHavingThoughts.cs" />
     <Compile Include="HediffComp_WhileHavingThoughts.cs" />
     <Compile Include="Thought_Hediff.cs" />
