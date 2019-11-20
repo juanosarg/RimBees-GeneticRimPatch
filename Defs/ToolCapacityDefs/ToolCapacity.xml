@@ -10,8 +10,18 @@
 	</ToolCapacityDef>
 	
 	<ToolCapacityDef>
+		<defName>RB_VeryToxicSting</defName>
+		<label>very toxic sting</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
 		<defName>RB_ChemfuelSting</defName>
 		<label>chemfuel sting</label>
+	</ToolCapacityDef>
+	
+	<ToolCapacityDef>
+		<defName>RB_ParalyzingSting</defName>
+		<label>paralyzing sting</label>
 	</ToolCapacityDef>
 	
 	<ToolCapacityDef>

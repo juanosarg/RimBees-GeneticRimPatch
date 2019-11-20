@@ -22,6 +22,26 @@
 	</DamageDef>
 	
 	<DamageDef>
+		<defName>RB_VeryToxicSting</defName>
+		<label>very toxic sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>RB_ToxicBuildup</hediff>
+				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
+	<DamageDef>
 		<defName>RB_ChemfuelSting</defName>
 		<label>chemfuel sting</label>
 		<workerClass>DamageWorker_Stab</workerClass>
@@ -52,6 +72,26 @@
 		<additionalHediffs>
 			<li>
 				<hediff>RB_BlindingBuildup</hediff>
+				<severityPerDamageDealt>0.01</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
+			</li>
+		</additionalHediffs>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Slice</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+	</DamageDef>
+	
+	<DamageDef>
+		<defName>RB_ParalyzingSting</defName>
+		<label>paralyzing sting</label>
+		<workerClass>DamageWorker_Stab</workerClass>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been stung to death.</deathMessage>
+		<hediff>Stab</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<additionalHediffs>
+			<li>
+				<hediff>RB_ParalysisBuildup</hediff>
 				<severityPerDamageDealt>0.01</severityPerDamageDealt>
 				<victimSeverityScaling>ToxicSensitivity</victimSeverityScaling>
 			</li>
