@@ -4,7 +4,7 @@
 
 
 	<RecipeDef>
-		<defName>GR_BaseIncubator</defName>
+		<defName>GR_BaseIncubatorWaxRecipe</defName>
 		<label>manufacture empty wax incubator</label>
 		<description>Manufacture an empty incubator using Genewax and an organic growth compound.</description>
 		<jobString>Manufacturing empty wax incubator</jobString>
