@@ -1,7 +1,11 @@
 <ModMetaData>
 	<name>RimBees - Genetic Rim Patch</name>
 	<author>Sarg</author>
-	<supportedVersions><li>1.0</li></supportedVersions>
+	<supportedVersions>
+      <li>1.0</li>
+      <li>1.1</li>
+   </supportedVersions>
+	<packageId>sarg.geneticrimrimbees</packageId>
 	<description>Extract DNA from animals and hybridize them to create new, exotic species!
 
 &lt;size=24&gt;Features&lt;/size&gt;
@@ -21,6 +25,7 @@ Should be savegame compatible and not break anything. Should!
 Bee sounds by Odilonmarcenaro https://freesound.org/people/odilonmarcenaro/sounds/239909/
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v1.1: Updated for RimWorld 1.1 (22/02/20)
 v1.01: Bugfixing (24/11/19)
 v1.0: Release (20/11/19)
 

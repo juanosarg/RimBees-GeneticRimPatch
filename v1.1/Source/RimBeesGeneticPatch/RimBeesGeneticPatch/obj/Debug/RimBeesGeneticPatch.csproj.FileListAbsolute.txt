@@ -1,0 +1,8 @@
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\Assemblies\RimBeesGeneticPatch.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\Source\RimBeesGeneticPatch\RimBeesGeneticPatch\obj\Debug\RimBeesGeneticPatch.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\Source\RimBeesGeneticPatch\RimBeesGeneticPatch\obj\Debug\RimBeesGeneticPatch.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\Source\RimBeesGeneticPatch\RimBeesGeneticPatch\obj\Debug\RimBeesGeneticPatch.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\v1.1\Assemblies\RimBeesGeneticPatch.dll
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\v1.1\Source\RimBeesGeneticPatch\RimBeesGeneticPatch\obj\Debug\RimBeesGeneticPatch.csprojAssemblyReference.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\v1.1\Source\RimBeesGeneticPatch\RimBeesGeneticPatch\obj\Debug\RimBeesGeneticPatch.csproj.CoreCompileInputs.cache
+E:\SteamLibrary\steamapps\common\RimWorld\Mods\RimBees-GeneticRimPatch\v1.1\Source\RimBeesGeneticPatch\RimBeesGeneticPatch\obj\Debug\RimBeesGeneticPatch.dll
