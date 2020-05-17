@@ -9,6 +9,10 @@ namespace RimBeesGeneticPatch
     {
         public bool flagAmIThinking = false;
 
+        public int checkingInterval = 600;
+
+        public int checkingCounter = 0;
+
         public override void CompExposeData()
         {
             Scribe_Values.Look<bool>(ref this.flagAmIThinking, "flagAmIThinking", false, false);
@@ -24,21 +28,30 @@ namespace RimBeesGeneticPatch
 
         public override void CompPostTick(ref float severityAdjustment)
         {
-            
-            foreach (ThoughtDef thoughtDef in this.Props.thoughtDefs)
+            base.CompPostTick(ref severityAdjustment);
+
+            checkingCounter++;
+
+            if (checkingCounter> checkingInterval)
             {
-                flagAmIThinking = false;
-                if (this.Pawn.needs.mood.thoughts.memories.GetFirstMemoryOfDef(thoughtDef) != null)
+                foreach (ThoughtDef thoughtDef in this.Props.thoughtDefs)
                 {
-                    flagAmIThinking = true;
-                    break;
+                    flagAmIThinking = false;
+                    if (this.Pawn.needs.mood.thoughts.memories.GetFirstMemoryOfDef(thoughtDef) != null)
+                    {
+                        flagAmIThinking = true;
+                        break;
+                    }
                 }
+
+                if (!flagAmIThinking)
+                {
+                    this.Pawn.health.RemoveHediff(this.parent);
+                }
+                checkingCounter = 0;
             }
 
-            if (!flagAmIThinking)
-            {
-                this.Pawn.health.RemoveHediff(this.parent);
-            }
+            
         }
 
     }
