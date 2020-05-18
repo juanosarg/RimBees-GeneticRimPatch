@@ -7,12 +7,15 @@ namespace RimBeesGeneticPatch
 {
     class Thought_Hediff : Thought_Memory
     {
+        public bool added = false;
 
-       
         public override float MoodOffset()
         {
-                       
-            this.pawn.health.AddHediff(this.def.hediff);
+            if (!added) {
+                this.pawn.health.AddHediff(this.def.hediff);
+                added = true;
+            }
+            
             return base.MoodOffset();
         }
 
