@@ -4,6 +4,7 @@
 	<supportedVersions>
       <li>1.0</li>
       <li>1.1</li>
+	   <li>1.2</li>
    </supportedVersions>
 	<packageId>sarg.geneticrimrimbees</packageId>
 	 <modDependencies>
@@ -39,6 +40,7 @@ Should be savegame compatible and not break anything. Should!
 Bee sounds by Odilonmarcenaro https://freesound.org/people/odilonmarcenaro/sounds/239909/
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
+v2.1: Updated for RimWorld 1.2 (11/08/20)
 v2.0: Full retexture of the mod to go along with RimBees (30/07/20)
 v1.1: Updated for RimWorld 1.1 (22/02/20)
 v1.01: Bugfixing (24/11/19)
