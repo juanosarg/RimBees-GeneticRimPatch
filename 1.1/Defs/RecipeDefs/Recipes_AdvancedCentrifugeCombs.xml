@@ -432,5 +432,44 @@
 		</skillRequirements>
 	</RecipeDef>
 	
+	<RecipeDef>
+		<defName>RB_CentrifugeCattleCombBulk</defName>
+		<label>bulk extract from cattle comb</label>
+		<description>Centrifuges a cattle comb to bulk extract milk, wool and muffalo genetic material.</description>
+		<jobString>Extracting milk, wool and muffalo genetic material.</jobString>
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workAmount>500</workAmount>
+		<recipeUsers>
+			<li>RB_Advanced_Honey_Centrifuge</li>	
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RB_Cattle_Honeycomb</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+
+		</ingredients>
+		<fixedIngredientFilter>
+
+			<thingDefs>
+				<li>RB_Cattle_Honeycomb</li>
+
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Milk>50</Milk>
+			<WoolMuffalo>50</WoolMuffalo>
+			<GR_MuffaloGenetic>10</GR_MuffaloGenetic>
+		</products>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+	</RecipeDef>
+	
 	
 </Defs>
