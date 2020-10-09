@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+<ThingDef Abstract="True" Name="GR_IncubatorsBaseBee" ParentName="GR_IncubatorsBase">
+    <graphicData>
+	  <texPath>Things/Item/GR_IncubatorBees</texPath>
+    </graphicData>
+</ThingDef>
+
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_BearbeeIncubator</defName>
+    <label>bearbee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a bearbee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Bearbee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_BoombeeIncubator</defName>
+    <label>boombee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a boombee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Boombee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_CatbeeIncubator</defName>
+    <label>catbee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a catbee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Catbee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_ChickenbeeIncubator</defName>
+    <label>chickenbee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a chickenbee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Chickenbee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_SpiderbeeIncubator</defName>
+    <label>spiderbee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a spiderbee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Spiderbee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_MechabeeIncubator</defName>
+    <label>mechabee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a mechabee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Mechabee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_MuffalobeeIncubator</defName>
+    <label>muffalobee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a muffalobee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Muffalobee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_LizardbeeIncubator</defName>
+    <label>lizardbee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a lizardbee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Lizardbee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_MousebeeIncubator</defName>
+    <label>mousebee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a mousebee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Mousebee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_ThrumbeeIncubator</defName>
+    <label>thrumbee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a thrumbee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Thrumbee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+<ThingDef ParentName="GR_IncubatorsBaseBee">
+    <defName>GR_WolfbeeIncubator</defName>
+    <label>wolfbee incubator</label>
+    <description>This incubator has to be kept at a temperature between 0 and 50 degrees Celsius until the genetically modified organism is ready to hatch. The embryo will develop into a wolfbee hybrid</description>
+    <comps>
+      <li Class="GeneticRim.CompProperties_Incubator">
+        <hatcherDaystoHatch>1</hatcherDaystoHatch>
+        <hatcherPawn>GR_BeeHybrid_Wolfbee</hatcherPawn>
+      </li>
+    </comps>
+</ThingDef>
+
+
+
+
+
+
+</Defs>
